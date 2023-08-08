@@ -275,6 +275,10 @@ nav{
     nav{
         flex-direction:column;
         text-align:center;
+        gap:3rem;
+    }
+    .logo{
+        display: flex;
         gap:2rem;
     }
     .logo h2{
@@ -292,11 +296,17 @@ nav{
         text-align:center;
         background-color:#3FDBB1;
         padding:1.5rem;
+        gap:2.5rem;
     }
     .header-banner-section-container{
         flex-direction:column-reverse;
         justify-content:center;
         align-items:center;
+        gap:2.5rem;
+    }
+    .header-banner-section-text{
+        display:flex;
+        gap:2.5rem;
     }
     .header-banner-section-text h1{
         font-size:4rem;
@@ -312,9 +322,14 @@ nav{
         text-align:center;
         margin:0px auto;
     }
+    .header-banner-section-text .sponsors p{
+        display:flex;
+        gap:2.5rem;
+    }
     .first-stars{
         justify-content:space-between;
         margin:0px auto;
+        gap:1.5rem;
     }
     .header-banner-section-text .primary-p{
         font-size:1rem;
@@ -335,11 +350,16 @@ nav{
     .section-2-items-number{
         display:grid;
         grid-template-columns:repeat(2,1fr);
+        gap:3rem;
     }
     .section-3-item-container{
         flex-direction:column;
         width:80%;
         text-align:justify;
+        gap:2rem;
+    }
+    .section-3-items-text{
+        gap:1.5rem;
     }
 }
 /* responsive - tablet approach end */
@@ -348,6 +368,10 @@ nav{
     nav{
         flex-direction:column;
         text-align:center;
+        gap:2.5rem;
+    }
+    .logo{
+        display:flex;
         gap:2rem;
     }
     .logo h2{
@@ -368,8 +392,16 @@ nav{
         flex-direction:column-reverse;
         justify-content:center;
         align-items:center;
+        gap:2.5rem;
     }
-    
+    .header-banner-section-text{
+        display:flex;
+        gap:2.5rem;
+    }
+    .sponsors .primary-p{
+        display:flex;
+        gap:2.5rem;
+    }
     .header-banner-section-text h1{
         font-size:2rem;
     }
@@ -391,6 +423,7 @@ nav{
     .section-2-items-number{
         display:flex;
         flex-direction:column;
+        gap:2.5rem;
     }
     #number-two{
         position:relative;
@@ -400,12 +433,18 @@ nav{
         flex-direction:column;
         width:80%;
         text-align:justify;
+        gap:2.5rem;
     }
     .section-3-items-icon{
         display:none;
     }
+    .section-3-items-text{
+        display:flex;
+        gap:1rem;
+    }
     .section-3-items-text .second-stars{
         flex-direction:column;
+        gap:2.5rem;
     }
 }
 /* responsive - mobile approach end */
