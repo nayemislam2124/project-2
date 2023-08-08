@@ -12,6 +12,24 @@ body{
     color:#02073E;
     font-weight:400;
 }
+.primary-header-p{
+    color:#EF9E48;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:0.7rem;
+}
+.primary-header-h2{
+    color:#0F2137;
+    font-weight:700;
+    font-size:1.3rem;
+}
+.section-header{
+    text-align:center;
+    line-height:1.5rem;
+}
+.section{
+    margin-top:3rem;
+}
 /* shared styles  */
 /* header styling start  */
 header{
@@ -116,6 +134,36 @@ nav{
     transition:all 0.4s ease;
 }
 /* header banner section styling end */
+/* section 1 start  */
+.section-1-item-container{
+    max-width:800px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px auto;
+    gap:2rem;
+}
+.section-1-items-text{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    gap:0.7rem;
+    margin-top:2rem;
+    box-shadow:2px 2px 10px rgba(128, 128, 128, 0.26);
+    padding:1rem;
+}
+.section-1-items-text iframe{
+    width:100%;
+    height:50%;
+    border-radius:0.3rem;
+}
+.second-stars{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    gap:0.5rem;
+}
+/* section 1 end */
 /* responsive - tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px){
     nav{
@@ -166,6 +214,14 @@ nav{
         font-size:1rem;
         text-align:center;
     }
+    .section-1-item-container{
+        flex-direction:column;
+        width:100%;
+    }
+    .section-1-items-text {
+        width:80%;
+        height:auto;
+    }
 }
 /* responsive - tablet approach end */
 /* responsive - mobile approach start  */
@@ -194,9 +250,20 @@ nav{
         justify-content:center;
         align-items:center;
     }
-    .header-banner-section-text h1{
-        font-size:3rem;
-    }
     
+    .header-banner-section-text h1{
+        font-size:2rem;
+    }
+    .header-banner-section-picture img{
+        width:100%;
+    }
+    .section-1-item-container{
+        flex-direction:column;
+        width:100%;
+    }
+    .section-1-items-text {
+        width:80%;
+        height:auto;
+    }
 }
 /* responsive - mobile approach end */
