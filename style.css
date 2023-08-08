@@ -396,6 +396,15 @@ nav{
     border-radius:0.5rem;
 }
 /* section 5 end */
+/* section 6 start  */
+.section-6-item-container{
+    max-width:800px;
+    margin:0rem auto;
+    line-height:2rem;
+    padding:5rem;
+    transition:all 0.4s ease;
+}
+/* section 6 end */
 /* responsive - tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px){
     nav{
@@ -532,6 +541,13 @@ nav{
         .section-5-items-details{
             line-height:2rem;
         }
+        .section-6-item-container{
+            border:2px solid #3FDBB1;
+            width:90%;
+            margin:2rem auto;
+            border-radius:0.5rem;
+            box-shadow:1px 1px 10px rgba(128, 128, 128, 0.242);
+        }
 }
 /* responsive - tablet approach end */
 /* responsive - mobile approach start  */
@@ -661,6 +677,14 @@ nav{
     }
     .section-5-items-details{
         line-height:2rem;
+    }
+    .section-6-item-container{
+        border:2px solid #3FDBB1;
+        width:90%;
+        padding:2rem;
+        margin:2rem auto;
+        border-radius:0.5rem;
+        box-shadow:1px 1px 10px rgba(128, 128, 128, 0.242);
     }
 }
 /* responsive - mobile approach end */
